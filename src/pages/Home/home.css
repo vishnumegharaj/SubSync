@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reem+Kufi:wght@400..700&display=swap');
+body {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+.header{
+}
+
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+   color: var(--white);
+  text-shadow: 2px 2px 5px black;
+}
+
+.header, .features, .cta {
+  padding: 20px;
+  margin: 20px 0;
+ 
+}
+
+.header h1 {
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.features{
+  margin-bottom: 40px;
+}
+.cta h2 {
+  /* color: #7190ce; */
+}
+
+.font-pink{
+  color: var(--theme);
+
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 10px 0;
+}
+
+.cta form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cta input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cta button {
+  background-color: var(--theme); 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.cta button:hover { 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+}
+
+
+.header {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.cta p {
+  text-align: center;
+}
+
+.cta {
+  background-color: #ffffff1e;
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px; 
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding-bottom: 40px; 
+  box-sizing: border-box; 
+  
+  /* 3D Effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  transform: translateZ(0); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.cta:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.19);
+}
+
+
+.features {
+  background-color: #ffffff1e; 
+  backdrop-filter: blur(3px);
+  border-radius: 20px; 
+  padding: 20px; 
+  padding-bottom: 40px; 
+  box-sizing: border-box;
+  margin-bottom: 50px; 
+  
+ 
+  transform: translateZ(0); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+
+.features ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between the squares */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  flex: 1 1 calc(33.33% - 20px); 
+  background-color: var(--theme); 
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px; 
+  
+  /* 3D Effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  transform: translateZ(0); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.features li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.19);
+}
+
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro {
+  background-color: #ffffff1e;
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px; 
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px; /* Padding to ensure content doesn't touch the edges */
+  padding-bottom: 40px; /* Additional space at the bottom inside the section */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  
+  /* 3D Effect */
+  transform: translateZ(0); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+
+
+
+
+.intro-box {
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 0%  ;
+  width: 100%; 
+}
+
+.intro h2 {
+  margin-top: 60px;
+}
+.intro p{
+  margin-top: 0%;
+  font-size: large;
+}

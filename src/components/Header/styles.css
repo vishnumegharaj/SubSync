@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+.navbar{
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo{
+    font-family: "Limelight", sans-serif;
+    color: var(--theme);
+    font-style: normal;
+    font-Weight:500;
+    font-Size: 29px;
+    margin: 0;
+   
+
+}
+
+.link{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
